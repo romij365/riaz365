@@ -20,7 +20,7 @@ button{width:100%;padding:12px;border:none;border-radius:8px;background:#22c55e;
 <p class="small" id="msg"></p>
 </div><script>
 const tg = Telegram.WebApp; tg.ready();
-const API = "https://YOUR_BACKEND_URL"; // replace with your Railway backend URL
+const API = "https://quiz-backend-production.up.railway.app";// replace with your Railway backend URL
 const user = tg.initDataUnsafe.user;
 
 document.getElementById('user').innerHTML = `👤 ${user.first_name}<br>💰 Balance: <span id='bal'>0</span>৳`;
